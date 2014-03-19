@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'optparse'
-require 'lib/nagios_session'
-require 'lib/nagios_commands'
-require 'lib/constants'
+require_relative 'lib/nagios_session'
+require_relative 'lib/nagios_commands'
+require_relative 'lib/constants'
 
 options = {}
 
